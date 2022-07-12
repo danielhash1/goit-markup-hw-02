@@ -35,3 +35,7 @@ a {
   font-size: 26px;
   font-family: Raleway;
 }
+
+.logo-accent {
+  color: rgba(33, 150, 243, 1);
+}
