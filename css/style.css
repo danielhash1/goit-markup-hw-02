@@ -10,6 +10,32 @@ a {
   color: inherit;
 }
 
+.header-nav {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.site-nav {
+  font-size: 14px;
+}
+
+.hero-txt {
+  font-size: 44px;
+}
+
+.services-txt,
+.team-txt {
+  font-size: 36px;
+}
+
+.services-team {
+  font-size: 14px;
+}
+
+.persons {
+  font-size: 16px;
+}
+
 .header-links:hover,
 .header-links:focus,
 .footer-links:hover,
@@ -18,18 +44,12 @@ a {
   cursor: pointer;
 }
 
-.header-nav {
-  font-size: 14px;
-  text-decoration: none;
-}
-
-.hero-txt {
-  font-size: 44px;
-}
-
-.services,
-.team-persons {
-  font-size: 36px;
+.site-nav,
+.qualities,
+.services-team,
+.persons,
+.footer-style {
+  list-style-type: none;
 }
 
 .logo-link {
