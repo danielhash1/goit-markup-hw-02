@@ -64,7 +64,8 @@ a {
   transition-duration: 0.3s;
 }
 
-.item-but:hover {
+.item-but:hover,
+.item-but:focus {
   color: rgba(33, 150, 243, 1);
   cursor: pointer;
 }
@@ -110,7 +111,8 @@ a {
   color: #ffffff;
 }
 
-.button-buy:hover {
+.button-buy:hover,
+.button-buy:focus {
   color: rgba(255, 255, 255, 0.6);
   background-color: #2196f3;
   cursor: pointer;
@@ -234,7 +236,8 @@ a {
   transition-duration: 0.3s;
 }
 
-.button-filter-nav:hover {
+.button-filter-nav:hover,
+.button-filter-nav:focus {
   color: #ffffff;
   background: #2196f3;
   /* shadow-middle */
