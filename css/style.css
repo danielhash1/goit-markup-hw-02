@@ -169,6 +169,19 @@ a {
 
 .person {
   list-style-type: none;
+  text-align: center;
+}
+
+.person-name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 
 .person-item {
@@ -180,6 +193,7 @@ a {
   /* identical to box height */
   letter-spacing: 0.03em;
   color: #212121;
+  text-align: center;
 }
 
 .person-title {
@@ -191,6 +205,7 @@ a {
   /* identical to box height */
   letter-spacing: 0.03em;
   color: #212121;
+  text-align: center;
 }
 
 .person-item-txt {
@@ -202,6 +217,7 @@ a {
   /* identical to box height */
   letter-spacing: 0.03em;
   color: #757575;
+  text-align: center;
 }
 
 .footer-style {
