@@ -164,31 +164,39 @@ a {
   letter-spacing: 0.03em;
 }
 
-.persons {
-  font-size: 16px;
+.person {
   list-style-type: none;
 }
 
-.persons-item {
+.person-item {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   /* identical to box height */
-  text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
 
-.persons-item-txt {
+.person-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.person-item-txt {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   /* identical to box height */
-  text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
 }
