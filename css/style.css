@@ -53,6 +53,7 @@ a {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
+  line-height: 16px;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
@@ -72,6 +73,7 @@ a {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
+  color: #757575;
   line-height: 16px;
   letter-spacing: 0.02em;
   list-style-type: none;
@@ -92,6 +94,7 @@ a {
 
 .button-buy {
   height: 50px;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -117,6 +120,27 @@ a {
   list-style-type: none;
 }
 
+.qualities-item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.qualities-item-txt {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
 .services-txt {
   font-style: normal;
   font-weight: 700;
@@ -128,6 +152,7 @@ a {
 
 .services-team {
   list-style-type: none;
+  mix-blend-mode: normal;
 }
 
 .team-text {
@@ -144,6 +169,30 @@ a {
   list-style-type: none;
 }
 
+.persons-item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.persons-item-txt {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
 .footer-style {
   font-family: "Roboto";
   font-style: normal;
@@ -154,4 +203,61 @@ a {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   transition-duration: 0.3s;
+}
+
+/* portfolio page */
+
+.filter-nav {
+  list-style-type: none;
+  text-align: center;
+}
+
+.button-filter-nav {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 500px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  letter-spacing: 0.03em;
+  color: #212121;
+  background: #f5f4fa;
+  border-radius: 4px;
+  transition-duration: 0.3s;
+}
+
+.button-filter-nav:hover {
+  color: #ffffff;
+  background: #2196f3;
+  /* shadow-middle */
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.portfolio-list-item {
+  list-style-type: none;
+}
+
+.title-portfolio-list {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.subtitle-portfolio-list {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+  letter-spacing: 0.03em;
+  color: #757575;
 }
